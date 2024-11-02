@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serious Shirley - Songbook</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Serious Shirley Songbook</h1>
+        <nav>
+            <label for="song-select">Choose a Song:</label>
+            <select id="song-select" onchange="showSong()">
+                <option value="">Select a Song</option>
+                <optgroup label="Set 1">
+                    <option value="Immigrant Song">Immigrant Song</option>
+                    <option value="Make me Wanna Die">Make me Wanna Die</option>
+                    <option value="Sweet Dreams Mash">Sweet Dreams Mash</option>
+                    <option value="All the Small Things">All the Small Things</option>
+                    <option value="Crazy Bitch">Crazy Bitch</option>
+                    <option value="My Own Worst Enemy">My Own Worst Enemy</option>
+                    <option value="I see Red">I see Red</option>
+                    <option value="Teenagers">Teenagers</option>
+                    <option value="Take it Off">Take it Off</option>
+                    <option value="E.T.">E.T.</option>
+                    <option value="Hand in my Pocket">Hand in my Pocket</option>
+                    <option value="Paris Ohh La La">Paris Ohh La La</option>
+                    <option value="Hit me Baby">Hit me Baby</option>
+                    <option value="Creep">Creep</option>
+                    <option value="Take me Down">Take me Down</option>
+                    <option value="Whiskey Fever">Whiskey Fever</option>
+                    <option value="Hate my Life">Hate my Life</option>
+                    <option value="Kids Aren't Alright">Kids Aren't Alright</option>
+                    <option value="Animal I Have Become - Drop C">Animal I Have Become - Drop C</option>
+                    <option value="Fake It - Drop C">Fake It - Drop C</option>
+                    <option value="Aerials - Drop C">Aerials - Drop C</option>
+                    <option value="Careless Whisper - Drop C">Careless Whisper - Drop C</option>
+                    <option value="Whore - Drop A">Whore - Drop A</option>
+                </optgroup>
+                <optgroup label="Set 2">
+                    <option value="Barracuda">Barracuda</option>
+                    <option value="Call Me">Call Me</option>
+                    <option value="Heartbreaker">Heartbreaker</option>
+                    <option value="Tainted Love">Tainted Love</option>
+                    <option value="Your Love">Your Love</option>
+                    <option value="You Belong to 69">You Belong to 69</option>
+                    <option value="Ring of Fire">Ring of Fire</option>
+                    <option value="Down to the Bottom">Down to the Bottom</option>
+                    <option value="Self Esteem">Self Esteem</option>
+                    <option value="Toxic">Toxic</option>
+                    <option value="Since U Been Gone">Since U Been Gone</option>
+                    <option value="So What">So What</option>
+                    <option value="Hysteria">Hysteria</option>
+                    <option value="Here for the Party - Drop D">Here for the Party - Drop D</option>
+                    <option value="Bad Girlfriend - Drop D">Bad Girlfriend - Drop D</option>
+                    <option value="Still into You - Drop D">Still into You - Drop D</option>
+                    <option value="Call me When You're Sober - Drop D">Call me When You're Sober - Drop D</option>
+                    <option value="Bad Romance - Drop D">Bad Romance - Drop D</option>
+                    <option value="Uninvited - Drop D">Uninvited - Drop D</option>
+                    <option value="Jaded - Drop D">Jaded - Drop D</option>
+                </optgroup>
+                <optgroup label="Set 3">
+                    <option value="Scars - Drop D">Scars - Drop D</option>
+                    <option value="Fully Alive - Drop D">Fully Alive - Drop D</option>
+                    <option value="Miss the Misery - Drop D">Miss the Misery - Drop D</option>
+                    <option value="Pain - Drop D">Pain - Drop D</option>
+                    <option value="Rest in Peace">Rest in Peace</option>
+                    <option value="Death by Rock n Roll">Death by Rock n Roll</option>
+                    <option value="What's Up">What's Up</option>
+                    <option value="Santeria Case">Santeria Case</option>
+                    <option value="Missing Key">Missing Key</option>
+                    <option value="My Medicine/Banner">My Medicine/Banner</option>
+                    <option value="Whole Lotta Love">Whole Lotta Love</option>
+                    <option value="White Rabbit">White Rabbit</option>
+                    <option value="ABCDEFU-FU">ABCDEFU-FU</option>
+                    <option value="Twilight Zone">Twilight Zone</option>
+                    <option value="Enter Sandman">Enter Sandman</option>
+                    <option value="Separate Ways">Separate Ways</option>
+                </optgroup>
+            </select>
+        </nav>
+    </header>
+
+    <main>
+        <section id="song-display">
+            <h2 id="song-title">Choose a song to view details</h2>
+            <div id="song-details"></div>
+            <img id="song-image" src="" alt="" style="display: none; max-width: 100%; height: auto; margin-top: 1rem;">
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

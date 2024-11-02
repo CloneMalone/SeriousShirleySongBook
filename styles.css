@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #000;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+nav {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#song-select {
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    width: 80%;
+    max-width: 400px;
+    margin: 0.5rem auto;
+    display: block;
+}
+
+main {
+    padding: 1.5rem;
+}
+
+#song-display {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#song-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #000;
+    text-align: center;
+}
+
+#song-details {
+    font-size: 2rem;
+    margin-top: 2em;
+    text-align: center;
+    color: #000;
+    line-height: 1.6;
+}
+
+#song-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+#song-details p {
+    margin: 3rem 0;
+}
+
+#song-details h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.3rem;
+}
+
+#song-details ul {
+    padding-left: 1.75rem;
+    list-style-type: disc;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#song-details ul li {
+    margin-bottom: 0.75rem;
+}
